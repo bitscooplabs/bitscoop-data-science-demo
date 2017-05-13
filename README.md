@@ -1,4 +1,4 @@
-# BitScoop Alexa Demo
+# BitScoop Data Science Demo
 
 You can build with any API on the BitScoop platform which makes being a software developer more interesting than ever.
 In this demo, we demonstrate how to use Amazon Lambda to fetch daily statistics about your tech stack, store that data in an RDS box, and then analyze the data with Amazon QuickSight or something similar.
