@@ -20,7 +20,7 @@ let PostmanMonitor = services.PostmanMonitor;
 let StatuscakeAlerts = services.StatuscakeAlerts;
 
 
-exports.handler = function() {
+exports.handler = function(event, context, callback) {
 	let dateNow = moment().utc().format('YYYY-MM-DD');
 	let sequelize;
 
